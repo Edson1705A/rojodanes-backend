@@ -18,6 +18,7 @@ app.use('/api/auth', require('./routes/auth'));
 app.use('/api/productos',require('./routes/productos'));
 app.use('/api/pedidos',  require('./routes/pedidos'));
 app.use('/api/usuarios', require('./routes/usuarios'));
+app.use('/api/categorias', require('./routes/categorias'));
 
 // RUTA DE PRUEBA
 app.get('/api/ping', function(req, res) {
